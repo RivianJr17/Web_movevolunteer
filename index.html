@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MoveVolunteer</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#home" class="navbar-logo">
+        <img src="/img/Logo Movers.png" alt="Logo MoveVolunteer" />
+        Move<span>Volunteer</span>
+      </a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="/page html/about.html">About Us</a>
+        <a href="#artikel">Artikel</a>
+        <a href="/page html/gallery.html">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <section id="home" class="home">
+      <img class="imgslide" src="/img/IMG20231223094517.jpg" alt="MV" />
+      <img class="imgslide" src="/img/IMG_1165.jpg" alt="MV" />
+      <img class="imgslide" src="/img/IMG_20240204_133939.jpg" alt="MV" />
+      <div class="content">
+        <h1>Selamat Datang</h1>
+        <p>
+          "Mewujudkan Kota Malang yang inklusif dan mendukung bagi orangtua dan
+          anak dengan disabilitas adalah inti dari misi Move Volunteer Malang."
+        </p>
+      </div>
+      <div class="slideshow-container">
+        <!-- Tombol navigasi -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+      <div class="dotbox" style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </section>
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+      <h2><span>ABOUT</span> US</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="/img/about us1.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Move Volunteer Malang</h3>
+          <p>
+            "Mewujudkan Kota Malang yang inklusif dan mendukung bagi orangtua
+            dan anak dengan disabilitas adalah inti dari misi Move Volunteer
+            Malang. Kami berkomitmen untuk menyediakan dukungan komprehensif
+            melalui layanan pendampingan, edukasi, dan advokasi. Dengan
+            program-program kami, kami tidak hanya memperjuangkan inklusi sosial
+            yang efektif, tetapi juga menghapus stigma dan diskriminasi terhadap
+            disabilitas di masyarakat. Bersama-sama, kami membangun jembatan
+            menuju kesempatan yang lebih luas dan kesejahteraan bagi semua."
+          </p>
+          <a href="/page html/about.html">Selengkapnya</a>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Contact Section start -->
+    <section id="contact" class="contact">
+      <h2><span>OUR</span> CONTACT</h2>
+      <div class="contact-info">
+        <div class="contact-phone card">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"
+            />
+          </svg>
+          <p>+62 857-5511-6212</p>
+        </div>
+        <div class="contact-email card">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"
+            />
+          </svg>
+          <p>moveofficial3@gmail.com</p>
+        </div>
+        <div class="contact-address card">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"
+            />
+          </svg>
+          <p>
+            Jl. Sumbing No.11a, Kauman, Kec. Klojen, Kota Malang, Jawa Timur
+            65115
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.4054470688275!2d112.58722277476788!3d-7.95698469206764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78825bc65e176b%3A0x954b33ee83283be2!2sUniversitas%20Ma%20Chung!5e0!3m2!1sid!2sid!4v1720780031917!5m2!1sid!2sid"
+          width="50%"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <form action="https://formspree.io/f/mrbzbeda" method="POST">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" name="name" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" name="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="message-square"></i>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- Start Footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section about">
+          <h2>About Us</h2>
+          <p>
+            We are a community focused on supporting children and parents with
+            disabilities. Join us in making a difference.
+          </p>
+          <div class="socials">
+            <a
+              href="https://www.instagram.com/move.volunteer?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              ><i data-feather="instagram"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-section links">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="/page html/about.html">About</a></li>
+            <li><a href="#Artikel">Artikel</a></li>
+            <li><a href="/page html/gallery.html">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section contact">
+          <h2>Contact Us</h2>
+          <p>Email: moveofficial3@gmail.com</p>
+          <p>Phone: +62 123 456 7890</p>
+          <p>Address: Jl. Example No. 123, Malang, Indonesia</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2024 Move Volunteer Malang | Designed by Universitas Ma Chung
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <button id="scrollUpBtn" title="Go to top">
+      <i data-feather="chevron-up"></i>
+    </button>
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+    <!-- My JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
